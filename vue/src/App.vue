@@ -6,7 +6,7 @@
 
 <template>
   <router-view></router-view>
-  <HelloWorld msg="Vite App" />
+  <!-- <HelloWorld msg="Vite App" /> -->
 </template>
 
 <style scoped>
