@@ -1,19 +1,11 @@
-<script>
+<script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
-import {mapState} from 'vuex';
-export default {
-  computed: {
-  ...mapState(['user'])
-  }
-}
 </script>
-
 
 <template>
   <div>
-  <pre>{{user}}</pre>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
